@@ -19,7 +19,6 @@ catButton.addEventListener("click", (evt) => {
         console.log(cat.url);
         catDiv.innerHTML = `<h3>Here is the cat wishing you bestest day</h3>`;
         catDiv.innerHTML += `<img src="${cat.url}" alt="kitty" />`;
-        catDiv.innerHTML += `<h2>Here is the cat wishing you bestest day</h2>`;
       })
     );
 });
